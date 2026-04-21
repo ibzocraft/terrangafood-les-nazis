@@ -1,6 +1,6 @@
 # Rapport d'exploration - Lab 0
 
-## Équipe : Les Baobabs
+## Équipe : Les nazis
 
 ### Architecture Backend (par DB - [Prénom du membre DB])
 (À compléter par DB)
