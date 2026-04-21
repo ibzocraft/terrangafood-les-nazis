@@ -1,3 +1,9 @@
+/**
+ * EXPLORATION DB - Oumar :
+ * Ce fichier (app.js) est le point d'entrée du backend. 
+ * Il configure Express, gère les routes vers les modèles et 
+ * établit la connexion avec la base de données MongoDB.
+ */
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
