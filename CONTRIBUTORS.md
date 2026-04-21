@@ -5,4 +5,5 @@
 | Membre | Rôle Lab 0 | GitHub |
 |--------|-----------|--------|
 | Ibrahima GUEYE | CP | ibzocraft |
+| Idrissa KANE   | DF | idy-00    |
 | (à compléter par chaque membre via PR) | | |
