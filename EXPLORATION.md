@@ -2,7 +2,7 @@
 
 ## Équipe : Les Baobabs
 
-### Architecture Backend (par DB - [Prénom du membre DB])
+### Architecture Backend (par DB - [Cheikhou Oumar FAYE])
 (À compléter par DB)
 
 ### Architecture Frontend (par DF - Idrissa Kane)
