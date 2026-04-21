@@ -6,3 +6,4 @@
 |--------|-----------|--------|
 | Ibrahima GUEYE | CP | ibzocraft |
 | (à compléter par chaque membre via PR) | | |
+| Ousmane SECK | QA | @uzi_cristiano |
