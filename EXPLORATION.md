@@ -89,7 +89,7 @@ Fonctionnalités testées :
  
 Bugs trouvés : aucun / [liste tes bugs]
 
- ### Synthèse (par CP-- [Prénom])
+ ### Synthèse (par CP -- Ibrahima)
 **Ce qui fonctionne bien:**
 - L'API restaurants
 - La page d'accaueil et détails frontend
