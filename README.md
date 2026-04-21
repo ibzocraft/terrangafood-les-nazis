@@ -1,8 +1,8 @@
-# 🍛 TerrangaFood
+# 🍛 TerrangaFood - Les Nazis
 
 Plateforme de commande de plats auprès de restaurants dakarois.
 
-**Projet pédagogique** — Architecture Logicielle 2 — L3 Génie Logiciel — UCAD / ESP
+**Projet pédagogique** — Architecture Logicielle 2 — L3 Génie Logiciel — ESTM
 
 ## Stack technique
 
