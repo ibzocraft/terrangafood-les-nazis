@@ -1,6 +1,6 @@
 # Rapport d'exploration - Lab 0
 
-## Équipe : Les Baobabs
+## Équipe : Les Nazis
 
 ### Architecture Backend (par DB - [Cheikhou Oumar FAYE])
 (À compléter par DB)
@@ -89,7 +89,13 @@ Fonctionnalités testées :
  
 Bugs trouvés : aucun / [liste tes bugs]
 
-⚠️ **Ce qui manque (le 30% mentionné) :**
+ ### Synthèse (par CP-- [Prénom])
+**Ce qui fonctionne bien:**
+- L'API restaurants
+- La page d'accaueil et détails frontend
+- Le script de seeding
+
+**Ce qui manque:**
 - Pas de gestion d'erreurs visible (si l'API ne répond pas)
 - Pas de loader/spinner pendant le chargement des données
 - Pas de système de recherche ou de filtres
