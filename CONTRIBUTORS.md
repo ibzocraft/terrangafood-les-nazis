@@ -3,8 +3,7 @@
 ## Équipe : Les Nazis
 
 | Membre | Rôle Lab 0 | GitHub |
-|Cheikhou Oumar Faye |DB|Oumar98-cheikhou|
 | Ibrahima GUEYE | CP | ibzocraft |
+|Idrissa Kane | DF | idy-00 |
 |Ousmane SECK | QA | @uzi_cristiano |
-| (à compléter par chaque membre via PR) | | |
- 
+|Cheikhou Oumar Faye| DB | Oumar98-cheikhou |
