@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const platController = require('../controllers/platController');
 
-// GET    /api/plats                          — Liste de tous les plats
+// GET    /api/plats                          — Liste de tous les plats qui disponible sur la plateforme
 router.get('/', platController.getAll);
 
 // GET    /api/plats/restaurant/:restaurantId — Plats d'un restaurant
