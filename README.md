@@ -87,7 +87,7 @@ terrangafood/
 - Page de détail d'un restaurant avec ses plats
 - API REST : GET /api/restaurants, GET /api/restaurants/:id
 - API REST : GET /api/plats
-- Seed de données initiales (Chez Fatou, Le Lamantin...)
+- Seed de données initiales (Chez Fatou, Le Lamantin , ...)
 - Frontend Next.js connecté au backend via fetch (lib/api.js)
 
 ## Bugs identifiés
