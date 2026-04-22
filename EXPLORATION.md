@@ -3,7 +3,7 @@
 ## Équipe : Les Nazis
 
 ### Architecture Backend (par DB - [FAYE Cheikhou Oumar])
-**Pages existantes :**
+
 
 ### Architecture Frontend (par DF - Idrissa Kane)
 **Pages existantes :**
