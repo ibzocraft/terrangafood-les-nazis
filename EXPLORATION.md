@@ -78,7 +78,7 @@ Le frontend communique avec le backend via un fichier centralisé : `lib/api.js`
 - Utilisation des routes dynamiques pour les détails restaurants
 - Centralisation des appels API dans `lib/api.js` facilite la maintenance
 
-## Tests fonctionnels (par QA — [Ton Prénom])
+## Tests fonctionnels (par QA — Ousmane)
 
 Fonctionnalités testées :
 - Page d'accueil : liste des restaurants affichée correctement
