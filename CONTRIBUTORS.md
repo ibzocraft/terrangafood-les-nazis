@@ -8,3 +8,4 @@
 | Idrissa Kane        | DF         | @idy-00          |
 | Ousmane SECK        | QA         | @uzi_cristiano   |
 | Cheikhou Oumar Faye | DB         | Oumar98-cheikhou |
+| Samba Laobe Seck    | DO         | @Bathie28        |
