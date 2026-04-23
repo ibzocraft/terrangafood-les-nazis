@@ -2,8 +2,9 @@
 
 ## Équipe : Les nazis
 
-### Architecture Backend (par DB - [Prénom du membre DB])
-(À compléter par DB)
+### Architecture Backend (par DB - [FAYE Cheikhou Oumar])
+
+
 
 ### Architecture Frontend (par DF - Idrissa Kane)
 **Pages existantes :**
@@ -78,7 +79,24 @@ Le frontend communique avec le backend via un fichier centralisé : `lib/api.js`
 - Utilisation des routes dynamiques pour les détails restaurants
 - Centralisation des appels API dans `lib/api.js` facilite la maintenance
 
-⚠️ **Ce qui manque (le 30% mentionné) :**
+## Tests fonctionnels (par QA — Ousmane)
+
+Fonctionnalités testées :
+- Page d'accueil : liste des restaurants affichée correctement
+- Page détail : plats du restaurant affichés
+- Route GET /api/restaurants : retourne la liste JSON
+- Route GET /api/restaurants/:id : retourne un restaurant par son ID
+- Route GET /api/plats : retourne tous les plats
+ 
+Bugs trouvés : aucun / [liste tes bugs]
+
+ ### Synthèse (par CP -- Ibrahima)
+**Ce qui fonctionne bien:**
+- L'API restaurants
+- La page d'accaueil et détails frontend
+- Le script de seeding
+
+**Ce qui manque:**
 - Pas de gestion d'erreurs visible (si l'API ne répond pas)
 - Pas de loader/spinner pendant le chargement des données
 - Pas de système de recherche ou de filtres
