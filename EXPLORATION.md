@@ -1,8 +1,9 @@
 # Rapport d'exploration - Lab 0
 
-## Équipe : Les Nazis
+## Équipe : Les nazis
 
 ### Architecture Backend (par DB - [FAYE Cheikhou Oumar])
+
 
 
 ### Architecture Frontend (par DF - Idrissa Kane)
