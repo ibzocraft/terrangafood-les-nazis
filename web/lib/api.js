@@ -48,8 +48,6 @@ export async function getPlats() {
 
 // === COMMANDES ===
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api';
-
 // Créer une commande
 export async function creerCommande(commande) {
   const res = await fetch(`${API_URL}/commandes`, {
@@ -90,16 +88,11 @@ export async function getCommande(id) {
   });
 
   if (!res.ok) {
-    throw new Error(`Impossible de récupérer la commande ${id}`);
-  }
-
-  return res.json();
-}
-if (!res.ok) {
     throw new Error('Commande non trouvée');
   }
 
   return res.json();
+}
 
 // Mettre à jour le statut d'une commande
 export async function updateStatutCommande(id, statut) {
