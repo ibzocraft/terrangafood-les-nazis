@@ -51,6 +51,23 @@ export default async function RestaurantDetailPage({ params }) {
           <span>🕐 {restaurant.horaires?.ouverture} — {restaurant.horaires?.fermeture}</span>
           <span>⭐ {restaurant.note}/5</span>
         </div>
+        <div style={{ marginTop: '20px' }}>
+          <Link
+            href={`/commander/${restaurant._id}`}
+            style={{
+              display: 'inline-block',
+              padding: '10px 24px',
+              background: '#52B788',
+              color: 'white',
+              borderRadius: '8px',
+              fontWeight: '600',
+              fontSize: '1rem',
+              textDecoration: 'none' // Optionnel : pour enlever le soulignement du lien
+            }}
+          >
+            Commander ici
+          </Link>
+        </div>
       </div>
 
       <section className="plats-section">
