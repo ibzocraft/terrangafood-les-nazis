@@ -17,7 +17,15 @@ const errorHandler = require('./middleware/errorHandler');
 const commandeRoutes = require ('./routes/commandes') ;
 
 // Charger les variables d'environnement
-dotenv.config({ path: '../.env' });
+// Charger . env seulement en dé veloppement local
+ // En Docker , les variables sont inject ées par
+ // docker - compose via 'environment '
+ const path = require ('path ') ;
+ const envPath = path . resolve ( __dirname , '../../. env ') ;
+ const fs = require ('fs ') ;
+ if ( fs . existsSync ( envPath ) ) {
+ dotenv . config ({ path : envPath }) ;
+}
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -42,7 +50,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/restaurants', restaurantRoutes);
 app.use('/api/plats', platRoutes);
-app.use ('/api/commandes ', commandeRoutes ) ;
+app.use ('/api/commandes', commandeRoutes ) ;
 
 
 // --- Gestion des erreurs ---
