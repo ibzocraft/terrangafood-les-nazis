@@ -42,11 +42,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/restaurants', restaurantRoutes);
 app.use('/api/plats', platRoutes);
-<<<<<<< HEAD
 app.use ('/api/commandes', commandeRoutes) ;
-=======
-app.use ('/api/commandes', commandeRoutes ) ;
->>>>>>> origin/main
 
 
 // --- Gestion des erreurs ---
