@@ -20,7 +20,7 @@ services:
     ports:
       - "3001:3001"
     environment:
-      - MONGODB_URI=mongodb://mongo:27017/terrangafood
+      - MONGODB_URI=mongodb+srv://terrangafood:terrangafood@cluster0.m1ynr3d.mongodb.net/terrangafood
       - PORT=3001
     depends_on:
       - mongo
