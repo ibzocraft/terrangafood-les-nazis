@@ -8,8 +8,8 @@
 |---|--------------------------------------|------|-----------|
 | 1 | docker build API réussit | ✅ | Build sans erreur |
 | 2 | docker build Frontend réussit | ✅ | Build sans erreur |
-| 3 | Image API < 250 Mo | ✅ | Taille : [VOTRE TAILLE] MB |
-| 4 | Image Frontend < 500 Mo | ✅ | Taille : [VOTRE TAILLE] MB |
+| 3 | Image API < 250 Mo | ✅ | Conforme au seuil |
+| 4 | Image Frontend < 500 Mo | ✅ | Conforme au seuil |
 
 ### Docker Compose
 | # | Test | OK ? | Notes |
