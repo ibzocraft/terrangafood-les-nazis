@@ -6,7 +6,7 @@
 ## URLs de production
 - Frontend : https://terrangafood-les-nazis.vercel.app
 - API : https://terrangafood-api-les-nazis.onrender.com
-- Atlas : cluster0.xxxxx.mongodb.net
+- Atlas : mongodb+srv://terrangafood-admin:qnRJwB4b1yOsNu9G@terrangafood-lesnazis.b11vcc1.mongodb.net/terrangafood?appName=terrangafood-lesnazis
 
 ## Résultats
 Résultats
