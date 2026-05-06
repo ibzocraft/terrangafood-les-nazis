@@ -26,7 +26,7 @@ Résultats
 
 
 ## Notes
-- Temps de cold start API Render : ~XX secondes
+- Temps de cold start API Render : 1 secondes
 - Bugs trouvés : aucun
 - Test 12 : vérifié indirectement via l'API (GET /restaurants = 5 docs,
   GET /commandes = commandes visibles). Accès Atlas restreint au compte du DB.
