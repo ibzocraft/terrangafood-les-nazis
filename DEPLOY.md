@@ -1,10 +1,15 @@
-# Rapport de Déploiement - Lab 4
+# Guide de déploiement-- TerrangaFood
 
-## Frontend (Déployé par le DF)
-- **Hébergeur** : Vercel
-- **URL** : terrangafood-les-nazis-qpai-yu893gism.vercel.app
-- **Status** : Opérationnel (Ready)
-
-## Backend (Déployé par le DO)
-- **Hébergeur** : Render
-- **Lien API** : [Demandez l'URL à votre collègue DO]
+## 1. MongoDB Atlas
+- Cluster : terrangafood-[lesnazis] (M0 Free, AWS Paris)
+- Utilisateur : terrangafood-admin
+- Accès réseau : 0.0.0.0/0
+- Base : terrangafood
+- Seed : exécuté avec 5 restaurants + 27 plats
+## 2. Render (API Express)
+- Service : terrangafood-api-les-nazis
+- URL : https://terrangafood-api-les-nazis.onrender.com
+- Root Directory : api
+- Runtime : Node
+- Instance : Free
+- Variables : MONGODB_URI (Atlas), PORT (3001)
