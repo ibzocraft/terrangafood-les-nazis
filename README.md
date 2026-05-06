@@ -96,3 +96,8 @@ terrangafood/
 ## Licence
 
 Projet pédagogique — Usage académique uniquement.
+
+## URLs de production
+2
+3 - ** Frontend ** : terrangafood-les-nazis-qpai-yu893gism.vercel.app
+4 - ** API ** : https://terrangafood-api-les-nazis.onrender.com
